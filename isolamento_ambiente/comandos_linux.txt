@@ -1,0 +1,28 @@
+python3 -m venv .venv
+python3 -m site
+echo $VIRTUAL_ENV
+source .venv/bin/activate
+
+# Verificar versão do pip
+pip --version
+python -c 'import sys; print("\n".join(sys.path))'
+
+# Atualizar os pacotes padrão
+pip list
+pip install --upgrade pip
+pip install --upgrade setuptools
+pip list --outdated
+
+# Congelar e criar o requeriments.txt
+pip freeze
+pip search requests
+pip install requests==2.23.0
+pip freeze > requirements.txt
+
+# pasta .venv não deve ir pra o git (inserir no gitignore)
+# teste: apagar pasta .venv
+deactivate
+rm -r .venv
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
