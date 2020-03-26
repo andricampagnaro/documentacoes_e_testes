@@ -41,7 +41,7 @@ def hello():
     s.connect((TCP_IP, TCP_PORT))
     s.send(MESSAGE.encode())
 
-    f = open('client/downloadedvideo3.mp4', 'wb')
+    f = open('static/downloadedvideo3.mp4', 'wb')
     data = s.recv(BUFFER_SIZE)
 
     while(data):
@@ -53,4 +53,4 @@ def hello():
 
     print(f"received data: {data.decode()}")
 
-    return(str("Downloaded!"))
+    return render_template('play.html', video='/static/downloadedvideo3.mp4')
