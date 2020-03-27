@@ -23,3 +23,6 @@ def my_form():
     form_input = request.form['unico_campo']
     print(form_input)
     return "done"
+
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=int("5000"), debug=True)
