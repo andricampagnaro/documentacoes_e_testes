@@ -1,0 +1,10 @@
+poetry
+dramatic
+from dynaconf import setings
+from typer import run
+from typing import Callable
+import sched
+
+# outros
+pythonanywhere.com
+digitalocean.com $5

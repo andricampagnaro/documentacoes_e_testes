@@ -1,0 +1,2 @@
+FROM ubuntu
+VOLUME ./teste:/teste

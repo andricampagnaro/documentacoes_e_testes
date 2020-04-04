@@ -1,0 +1,42 @@
+version: '3.5'
+
+services: 
+    db:
+        container_name: banco_cliente_teste
+        image: postgres
+        shm_size: '2gb'
+        ports: 
+            - 5432:5432
+        volumes:
+            - ./db:/var/lib/postgresql/data
+        networks:
+            nova_rede:
+                ipv4_address: 10.0.0.10
+
+    sistemaconversao:
+        container_name: sistema_conversao
+        image: primeiro_script_importacao
+        tty: true
+        stdin_open: true
+        volumes:
+            - "./sistema:/conversao"
+        networks:
+            nova_rede:
+                ipv4_address: 10.0.0.11
+
+    scriptimportacao:
+        container_name: script_importacao
+        stdin_open: true
+        build:
+            context: ./
+            dockerfile: Dockerfile-ubuntu
+        networks:
+            nova_rede:
+                ipv4_address: 10.0.0.12
+
+networks:
+    nova_rede:
+        ipam:
+            driver: default
+            config:
+              - subnet: "10.0.0.0/24"

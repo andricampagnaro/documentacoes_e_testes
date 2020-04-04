@@ -1,0 +1,5 @@
+# instalar docker-compose
+sudo apt  install docker-compose
+
+# iniciar estrutura
+docker-compose up

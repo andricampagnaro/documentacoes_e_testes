@@ -1,0 +1,1 @@
+verificar se consigo baixar um container do Ruby e executar o comando de importacao remotamente
