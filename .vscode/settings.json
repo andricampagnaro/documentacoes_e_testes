@@ -1,6 +1,6 @@
 {
     "python.testing.pytestArgs": [
-        "flask_bootstrap_docker"
+        "testes_pytest"
     ],
     "python.testing.unittestEnabled": false,
     "python.testing.nosetestsEnabled": false,
