@@ -129,4 +129,8 @@ dmypy.json
 .pyre/
 
 # Cache VSCode
-.vscode/
+.vscode
+.vscode/settings.json
+
+# Local History for Visual Studio Code
+.history/
