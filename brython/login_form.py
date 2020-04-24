@@ -1,7 +1,11 @@
 from browser import document
 from browser.html import INPUT, LABEL, BR, FORM, H1, H2
 
+def teste():
+    return 2
+
 def cabecalho():
+    variavel = 10
     document <= H1('Página escrita em Brython')
 
 def login_form():
@@ -17,3 +21,6 @@ def login_form():
     form <= INPUT(id='submit', type='submit')
 
     document <= form
+
+def parte_de_baixo():
+    document <= H1('Parte de baixo')

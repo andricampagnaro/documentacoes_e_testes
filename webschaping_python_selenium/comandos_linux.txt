@@ -1,0 +1,8 @@
+# Quando der o erro abaixo:
+selenium.common.exceptions.WebDriverException: Message: 'geckodriver' executable needs to be in PATH.
+
+# Primeiro: acessar o link abaixo e baixar o geckodriver
+https://github.com/mozilla/geckodriver/releases
+
+# Depois de baixar e descompactar, colocar no PATH o endereco desse arquivo
+PATH=${PATH}:$(pwd)/lib

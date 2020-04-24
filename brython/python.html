@@ -9,9 +9,11 @@
     </head>
     <body onload="brython()">
         <script type="text/python">
-            from login_form import login_form, cabecalho
+            from login_form import login_form, cabecalho, parte_de_baixo, teste
             cabecalho()
-            login_form()
+            for i in range(teste()):
+                login_form()
+            parte_de_baixo()
         </script>
     </body>
 </html>

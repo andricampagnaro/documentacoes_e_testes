@@ -8,3 +8,6 @@ https://www.youtube.com/watch?v=zE9MeEL5pKE&list=PLz3iwtnWFin-AfhhvqSoJSsSPHIBSv
 https://www.youtube.com/watch?v=HKSUPdcK7OU
 https://brython.info
 https://github.com/brython-dev/brython
+
+### webscrpaing_python_selenium
+https://www.youtube.com/watch?v=Vxl5jUltHBo
