@@ -75,6 +75,7 @@ class ObjetoTeste(Log):
         super().error('FADA FADA FADA FADA FADA FADA FADA FADA FADA FADA')
         print(self.__class__.__name__)
 
+
 def printar():
     print('teste')
 
