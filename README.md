@@ -17,3 +17,9 @@ https://www.youtube.com/watch?v=Vxl5jUltHBo
 ## APIs
 ### Genero por nome
 https://blog.brasil.io/2019/05/31/classificando-nomes-por-genero-usando-dados-publicos/index.html
+
+## DB
+### Firebird
+https://firebirdsql.org/file/documentation/drivers_documentation/python/fdb/getting-started.html
+https://docs.sqlalchemy.org/en/13/dialects/firebird.html#module-sqlalchemy.dialects.firebird.fdb
+

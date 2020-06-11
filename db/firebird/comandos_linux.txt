@@ -1,0 +1,2 @@
+# pre-requisito para funcionamento do pacote
+sudo apt install libfbclient2
