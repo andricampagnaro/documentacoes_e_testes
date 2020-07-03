@@ -23,3 +23,10 @@ https://blog.brasil.io/2019/05/31/classificando-nomes-por-genero-usando-dados-pu
 https://firebirdsql.org/file/documentation/drivers_documentation/python/fdb/getting-started.html
 https://docs.sqlalchemy.org/en/13/dialects/firebird.html#module-sqlalchemy.dialects.firebird.fdb
 
+### Access
+Shell Script
+
+Modo de usar:
+
+access_to_csv nome_do_arquivo.mdb
+
