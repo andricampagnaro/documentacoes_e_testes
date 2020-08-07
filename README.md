@@ -30,3 +30,5 @@ Modo de usar:
 
 access_to_csv nome_do_arquivo.mdb
 
+## Comandos diversos
+https://levelup.gitconnected.com/the-best-of-pythons-built-in-libraries-e08495396ef
